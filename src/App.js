@@ -14,7 +14,7 @@ function App() {
     <div className="app-container">
 
       <div className="header">
-        <h1>Hablar con IA 🎤</h1>
+        <h1>Hablar con Asistente AI</h1>
       </div>
 
       <elevenlabs-convai agent-id="agent_7201kkw6kcznetma1taa9c70g7wr"></elevenlabs-convai>
