@@ -4,11 +4,11 @@ import "./App.css";
 function App() {
 
   useEffect(() => {
-    const script = document.createElement("script");
-    script.src = "https://unpkg.com/@elevenlabs/convai-widget-embed";
-    script.async = true;
-    document.body.appendChild(script);
-  }, []);
+  const script = document.createElement("script");
+  script.src = "https://unpkg.com/@elevenlabs/convai-widget-embed?reload=" + Date.now();
+  script.async = true;
+  document.body.appendChild(script);
+}, []);
 
   return (
     <div className="app-container">
